@@ -1,0 +1,19 @@
+name: TeamHunt
+version: ${project.version}
+main: de.laurinhummel.teamhunt.main.Main
+api-version: 1.14
+authors: [ SkyExit ]
+description: A TeamHunt Plugin
+website: http://laurinhummel.de
+
+commands:
+  clearinv:
+    description: Clear your Inventory!
+  regenerate:
+    description: Heal every player!
+  info:
+    description: Get Informations about the Plugin.
+  menu:
+    description: Menu.
+  resetTimer:
+    description: Reset the Timer.
