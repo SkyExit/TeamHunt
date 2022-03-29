@@ -33,7 +33,6 @@ public class DontMoveCompass implements Listener {
 
         if(event.isShiftClick() && (event.getSlot() == 8)) {
             event.setCancelled(true);
-
         }
     }
 }

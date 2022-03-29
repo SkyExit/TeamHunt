@@ -22,9 +22,7 @@ public class MenuClickListener implements Listener {
         Timer timer = Main.getPlugin().getTimer();
         Player player = (Player) event.getWhoClicked();
         if(event.getView().getTitle().equals(McColors.AQUA + "Team" + McColors.GOLD + "Hunt")) {
-            if ((event.getCurrentItem() == null) || (event.getCurrentItem().getType().equals(Material.AIR)) || (event.getCurrentItem().getType().equals(Material.GRAY_STAINED_GLASS_PANE))) {
-                return;
-            }
+
             event.setCancelled(true);
             FileConfiguration config = Main.getPlugin().getConfig();
             //TIMER
